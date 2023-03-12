@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <head>
+        <style>
+            ul {list-style-type: none;}
+            li {
+                float: left;
+                margin-left: 8px;
+            }
+        </style>
+    </head>
+</head>
+<html>
+    <body>
+        <h3>Welcome to My App</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">LogIn</a></li>
+        </ul>
+        <br>
+        <h3>Welcome, Please Register with Us</h3>
+        <form action="" method="POST">
+            <img src="images/camera.jpeg" alt="Login" width="100">
+            <br>
+            <b>Full Name</b>
+            <br>
+            <input type="text" name="txtFullName" placeholder="John Watson" required>
+            <br>
+            <b>User Name</b>
+            <br>
+            <input type="text" name="txtUserName" placeholder="john@example.com" required>
+            <br>
+            <b>Password</b>
+            <br>
+            <input type="password" name="txtPassword" placeholder="minimum six characters" required>
+            <br>
+            <input type="checkbox" checked="checked" name="rememberMe">
+            <label for="rememberMe">Remember me</label>
+            <br>
+            <input type="submit" value="REGISTER">
+            <input type="reset" value="RESET">
+            <br>
+            <a href="login.html">Already Registered? Log In!</a>
+        </form>
+    </body>
+</html>

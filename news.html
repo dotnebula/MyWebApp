@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    
+    <!--  Internal CSS Style sheet -->
+    <!-- <Style>
+    h1 {
+        color: cornflowerblue;
+        margin: auto;
+        font-family: monospace;
+    }
+    </Style> -->
+    <link rel="stylesheet" href="styles/news.css" type="text/css" >
+    <style>
+        div {
+            width:200px;
+            height:200px;
+            background-color: orange;
+            animation-name: anim;
+            animation-duration: 10s;
+            animation-delay: 2s;
+            animation-iteration-count: 3;
+            animation-timing-function: ease;
+        }
+        @keyframes anim {
+            from {background-color: green;}
+            to {background-color: purple;}
+        }
+    </style>
+</head>
+<html>
+    <body>
+        <h1 style="color: blue; font-size: small; margin:16px">Welcome to News Section</h1> <!-- in line style-ing -->
+        <h1>Welcome to US</h1>
+
+        <h1>The video poster attribute</h1>
+
+        <video width="320" height="240" poster="images/camera.jpeg" controls>
+            <source src="videos/sample-mp4-file-small.mp4" type="video/mp4">
+        </video>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Koym-3BKxUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <div>
+            <p>Adding keyframe is a must for CSS animation</p>
+        </div>
+    </body>
+</html>
